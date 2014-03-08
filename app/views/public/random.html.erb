@@ -1,11 +1,11 @@
-<div class="wrap" style="background-image:url(http://imgsrv.krty.com/image/krty/UserFiles/Image/enchiladas.jpg);">
+<div class="wrap" style="background-image:url(<%= @image_url %>);">
     <div class="stripe">
         <div class="content">
             <h1>
                 <span>How about</span>
                 <a href="<%= @item.link %>"><%= @item.title %></a>
             </h1>
-            <p><%= @item.description %></p>
+            <p><%= @item.description %> Category is <%= @item.category %></p>
             <p><a class="button" href="/">Get another idea</a></p>
             <p class="add-link"><a href="new.html">Or add your own…</a></p>
         </div>

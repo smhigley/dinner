@@ -1,7 +1,3 @@
-// Place all the styles related to the Items controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 @import "reset";
 
 $fonts: "Coustard", Helvetica, arial, sans-serif;
@@ -49,14 +45,13 @@ a {
 
     .wrap {
         height: 100%;
-        background-repeat: repeat;
-        background-size: 220px auto;
-        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
         padding-top: 230px;
     }
 
     .stripe {
-        background:fade-out(white,.04);
+        background:fade-out(white,.20);
         box-shadow: 0 0 4px fade-out(black, .5);
         padding: 25px 0;
         text-align: center;
